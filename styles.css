@@ -1,0 +1,59 @@
+a{
+    color: green;
+    text-align: center;
+}
+a:hover{
+    color: blue;
+}
+header{
+    color: #73AD21;
+    position: sticky;
+}
+.row #ppl{
+    width: 60%;
+    border: 5px solid green;
+    border-radius: 20%;
+}
+
+#logo{
+    width: 20%
+}
+h1{
+    text-align: center;
+    
+}
+div.row{
+    display:flex; 
+    justify-content:center
+}
+figure{
+    text-align: center; 
+    width:40%
+}
+figcaption{
+    color:black; 
+    font-size:max(2vw, 4vw)
+}
+.nav{
+    display:flex; 
+    justify-content:center;
+}
+.roboto {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+.navbar {
+    text-align: center;
+    color: green;
+    
+}
+.contactform {
+    text-align: center;
+}
+footer{
+    text-align: center;
+}

@@ -4,32 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab1</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <header><h1>Team Tuff</h1></header>
+    <header>
+        <h1>
+            Team Tuff
+        </h1>
+    </header>
     <hr>
-    <div>
-        <a href= "index.html">Home</a>
-        <a href= "about.html">About</a>
-        <a href= "contact.html">Contact</a>
+    <div class="nav">
+        <span>
+            <a href= "index.html">Home</a>
+            <a href= "about.html">About</a>
+            <a href= "contact.html">Contact</a>
+        </span>
     </div>
 
-    <div> 
-        <img src="Abyss.jpeg" alt="Alexis picture" width="200"> 
+    <div class="row"> 
+        <figure>
+            <img id="ppl" src="Abyss.jpeg" alt="Alexis picture"> 
+            <figcaption>
+                Alexis
+            </figcaption>
+        </figure>
+        <figure>
+            <img id="ppl"  src="Carlos.jpeg" alt="Carlos picture">
+            <figcaption>
+                Carlos
+            </figcaption>
+        </figure>
+    </div>
+    <div class="row">
+        <figure>
+            <img id="ppl" src="Elijah.jpg" alt="Elijah picture"> 
+            <figcaption>
+                Elijah
+            </figcaption>
+        </figure>
         <br>
-        Alexis
-        <br>
-        <img src="Carlos.jpeg" alt="Carlos picture" width="200">
-        <br>
-        Carlos
-        <br>
-        <img src="Elijah.jpg" alt="Carlos picture" width="200">
-        <br>
-        Elijah
-        <br>
-        <img src="William.jpg" alt="Carlos picture" width="200">
-        <br>
-        William
+        <figure>
+            <img id="ppl" src="William.jpg" alt="William picture"> 
+            <figcaption>
+                William
+            </figcaption>
+        </figure>
     </div>
     
     <h3>
@@ -47,7 +66,7 @@
         <br>
         It is used for academic purposes only.
         </div>
-        <img src="otter.jpg" width="20%">
+        <img id="logo" src="otter.jpg" >
         
     </footer>
     
